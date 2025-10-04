@@ -14,7 +14,7 @@ async def async_setup_entry(
     async_add_entities: AddConfigEntryEntitiesCallback,
 ) -> None:
     """Set up the Demo config entry."""
-    async_add_entities(
+    await async_add_entities(  # type: ignore[func-returns-value]
         [DemoAirQuality("Home", 14, 23, 100), DemoAirQuality("Office", 4, 16, None)]
     )
 
