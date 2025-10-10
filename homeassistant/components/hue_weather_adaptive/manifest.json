@@ -1,0 +1,8 @@
+{
+  "domain": "hue_weather_adaptive",
+  "name": "Hue Weather Adaptive Mode",
+  "version": "1.0",
+  "documentation": "",
+  "requirements": [],
+  "codeowners": []
+}
