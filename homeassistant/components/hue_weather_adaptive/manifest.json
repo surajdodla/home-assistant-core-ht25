@@ -1,8 +1,9 @@
 {
   "domain": "hue_weather_adaptive",
   "name": "Hue Weather Adaptive Mode",
-  "version": "1.0",
-  "documentation": "",
-  "requirements": [],
-  "codeowners": []
+  "codeowners": [],
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/hue_weather_adaptive",
+  "iot_class": "local_push",
+  "requirements": []
 }

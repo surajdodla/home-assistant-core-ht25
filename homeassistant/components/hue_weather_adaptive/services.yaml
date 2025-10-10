@@ -1,0 +1,19 @@
+apply_weather_mode:
+  name: Apply Weather Mode
+  description: Apply weather-based lighting settings to a light entity
+  fields:
+    entity_id:
+      name: Light Entity
+      description: The light entity to control
+      required: true
+      selector:
+        entity:
+          domain: light
+    weather_entity:
+      name: Weather Entity
+      description: The weather entity to read conditions from
+      required: false
+      default: weather.home
+      selector:
+        entity:
+          domain: weather
